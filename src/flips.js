@@ -12,7 +12,7 @@ const STYLIS_CONTEXTS = {
 
 export const STYLIS_PROPERTY_CONTEXT = STYLIS_CONTEXTS.PROPERTY;
 
-export default (context: StylisContextType, content: string): ?string => {
+export default (context, content) => {
   if (context === STYLIS_PROPERTY_CONTEXT) {
     return rtlcss.process(content);
   }
