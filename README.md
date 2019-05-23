@@ -1,4 +1,4 @@
-# Flips
+# flipps
 
 Stylis RTL plugin based on [rtlcss](https://rtlcss.com/)
 
@@ -6,7 +6,7 @@ Stylis RTL plugin based on [rtlcss](https://rtlcss.com/)
 
 ```javascript
 import createEmotion from 'create-emotion'
-import flips from 'flips'
+import flipps from 'flipps'
 
 export const {
   flush,
@@ -20,12 +20,12 @@ export const {
   sheet,
   caches
 } = createEmotion({}, {
-  stylisPlugins: flips
+  stylisPlugins: flipps
 })
 ```
 ISC License
 
-Copyright © 2019, Flips
+Copyright © 2019, flipps
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above

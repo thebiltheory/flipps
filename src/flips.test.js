@@ -1,4 +1,4 @@
-import stylisRtlPlugin, { STYLIS_PROPERTY_CONTEXT } from "./flips";
+import stylisRtlPlugin, { STYLIS_PROPERTY_CONTEXT } from "./flipps";
 
 describe("Stylis RTL Plugin", () => {
   it("converts LTR to RTL", () => {
