@@ -10,7 +10,6 @@ const STYLIS_CONTEXTS = {
   AT_RULE: 3,
 };
 
-export type StylisContextType = $Values<typeof STYLIS_CONTEXTS>;
 export const STYLIS_PROPERTY_CONTEXT = STYLIS_CONTEXTS.PROPERTY;
 
 export default (context: StylisContextType, content: string): ?string => {
