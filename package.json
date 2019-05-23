@@ -1,0 +1,44 @@
+{
+  "name": "flips",
+  "version": "1.0.0",
+  "description": "Stylis plugin based on rtlcss",
+  "main": "dist/flips.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --ignore test.js",
+    "prepublish": "npm run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBilTheory/flips.git"
+  },
+  "keywords": [
+    "rtl",
+    "ltr",
+    "arabic",
+    "stylis",
+    "rtlcss",
+    "emotion",
+    "emotion-js",
+    "css",
+    "preprocessor",
+    "middle-east"
+  ],
+  "author": "Bil Benhamou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBilTheory/flips/issues"
+  },
+  "homepage": "https://github.com/TheBilTheory/flips#readme",
+  "peerDependencies": {
+    "stylis": "^3.5.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.5.0"
+  },
+  "dependencies": {
+    "rtlcss": "^2.4.0"
+  }
+}
