@@ -1,6 +1,6 @@
 {
   "name": "flipps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stylis plugin based on rtlcss",
   "main": "dist/flipps.js",
   "scripts": {

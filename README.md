@@ -5,23 +5,19 @@ Stylis RTL plugin based on [rtlcss](https://rtlcss.com/)
 ## Using with Emotion
 
 ```javascript
-import createEmotion from 'create-emotion'
+import { CacheProvider } from "@emotion/core";
+import createCache from "@emotion/cache";
 import flipps from 'flipps'
 
-export const {
-  flush,
-  hydrate,
-  cx,
-  merge,
-  getRegisteredStyles,
-  injectGlobal,
-  keyframes,
-  css,
-  sheet,
-  caches
-} = createEmotion({}, {
-  stylisPlugins: flipps
+const emotionCache = createCache({
+  stylisPlugins: [flipps]
 })
+
+class App extends Component {
+  <CacheProvider value={emotionCache}>
+    <App />
+  </CacheProvider>
+}
 ```
 ISC License
 
