@@ -2,6 +2,15 @@
 
 Stylis RTL plugin based on [rtlcss](https://rtlcss.com/)
 
+## Installation 
+```shell
+npm install --save flipps
+
+or 
+
+yarn add flipps
+```
+
 ## Using with Emotion
 
 ```javascript
