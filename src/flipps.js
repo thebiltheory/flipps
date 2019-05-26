@@ -10,7 +10,7 @@ const STYLIS_CONTEXTS = {
   AT_RULE: 3,
 };
 
-export const STYLIS_PROPERTY_CONTEXT = STYLIS_CONTEXTS.PROPERTY;
+export const STYLIS_PROPERTY_CONTEXT = STYLIS_CONTEXTS.PREPARATION;
 
 export default (context, content) => {
   if (context === STYLIS_PROPERTY_CONTEXT) {
